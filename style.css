@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+}
+
+img {
+	width: 100%;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding: 25vh;
+}
+
+nav {
+	background-color: #fff;
+	box-shadow: 0px 12px 17px #0000009c;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin-top: 2%;
+}
+
+nav ul li {
+	margin-left: 80px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+nav > img {
+	width: 7vw;
+}
+
+p, a, li, input, label, placeholder {
+	font-family: 'Inter', sans-serif;
+	color: #000;
+}
+
+a {
+	transition: color .3s;
+}
+
+a:hover {
+	color: #004021;
+	text-decoration: underline;
+}
+
+h1, h2, h3 {
+	font-size: 3rem;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	color: #00a857;
+	text-align: center;
+}
+hr {
+	color: #004021;
+	border: solid 2px;
+	margin: 30px 90px;
+}
+
+#introducao {
+	margin-top: 15vh;
+	box-shadow: 0 2px 30px #000;
+}
+
+#introducao > div {
+	background-color: #fff;
+	padding: 90px;
+	position: absolute;
+	height: 40vh;
+	top: 20vw;
+	left: 10vw;
+}
+
+#introducao > img {
+	width: 80vw;
+	margin-left: 19%;
+}
+
+#sobre {
+	margin-top: 50px;
+}
+
+#sobre > p {
+	text-align: center;
+	margin: 30px 90px;
+}
+
+#sobre ul {
+	margin: 20px 0 90px 90px;
+}
+
+#sobre ul li {
+	margin: 30px 0;
+}
+
+#diretor {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+#sobre > div {
+	display: flex;
+}
+
+#sobre > div img{
+	margin-left: 50px;
+	width: 50vw;
+	height: 90vh;
+	margin-top: 50px;
+}
+
+#estagio {
+	background-color: #000;
+	padding: 50px 0;
+}
+
+#estagio h2, #estagio p, #estagio h3{
+	color: #fff;
+}
+
+.ano {
+	display: flex;
+	position: relative;
+	margin-top: 30px;
+}
+
+#fundo-ano1 {
+	width: 70vw;
+	opacity: 30%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.ano > img {
+	margin-left: 0 50px;
+}
+
+.ano > div {
+	padding: 40px;
+	background-color: #004021;
+	width: 30vw;
+}
+
+.ano p {
+	text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 40px;
+    margin-top: 100px;}
+
+
+footer > div {
+    margin-left: 100px;
+}
+
+form div{
+    margin: 15px 0;}
+
+#botao-login {
+	background-color: #00A857;
+	position: fixed;
+	top: 20vh;
+	right: 10px;
+	z-index: 100;
+	padding: 30px;
+	border-radius: 100px;
+}
+
+#femail, #tcomentario {
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px #00000059;
+}
+
+#redes {
+    margin-left: 200px;
+}
+
+#redes div, p{
+    margin: 30px 0;
+}
+
+#redes > div {
+	display: flex;
+}
+
+#redes img {  
+    margin-right: 20px;}
+
+#enviar {
+	padding: 20px;
+	width: 10vw;
+	margin: 10px;
+	border-radius: 24px;
+	background-color: #00a857;
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.2rem;
+	transition: background-color .3s;
+	cursor: pointer;
+}
+
+#enviar:hover {
+	background-color: #004021;
+}
+
+#intro {
+	margin-top: 14vh;
+}
+
+#intro > img {
+	position: fixed;
+	z-index: -110;
+}
+
+#intro p {
+	color: #000;
+}
+
+#conteudo {
+	background-color: #fff;
+	padding: 40px;
+	width: 75vw;
+	margin: 100px auto;
+	display: block;
+}
+
+.titulo {
+	font-size: 2rem;
+	font-weight: 700;
+	margin: 30px 0;
+}
+
+#conteudo h1 {
+	margin-top: 50px;
+}
+
+
+#fim {
+	background-color: #0f2624;
+	outline: none;
+	border: 10px;
+	width: 370px;
+	height: 70px;
+	border-radius: 50px;
+	font-size: 20px;
+	top: 350px;
+	left: 75px;
+	position: absolute;
+	color: white;}
+
+#concluido {
+	color: white;
+	font-size: x-large;
+	padding-left: 135px;
+	padding-top: 20px;
+	font-family: inter;
+	position: relative;
+	top: -20px;
+}
+
+#fim:hover{
+	background-color: #9ef8cc;
+}
+
+#concluido:hover{
+	color: black;
+}
+
+input {
+	text-rendering: auto;
+	color: fieldtext;
+	letter-spacing: normal;
+	word-spacing: normal;
+	line-height: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	appearance: auto;
+	-webkit-rtl-ordering: logical;
+	cursor: text;
+	background-color: field;
+	margin: 0em;
+	padding: 1px 2px;
+	border-width: 2px;
+	border-style: inset;
+	border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+	border-image: initial;}
+
+div{
+display: block;
+}
+
+#senha {
+background-color: white;
+outline: none;
+border: 10px;
+padding-left: 30px;
+padding-right: 65px;
+width: 370px;
+height: 70px;
+border-radius: 50px;
+font-size: 20px;
+margin-top: 20px;
+margin-left: 75px;
+}
+
+form{
+    display: block;
+}
+
+#fundo {
+    position: relative;
+    background-color: #00A857;
+    height: 480px;
+    width: 520px;
+    top: 100px;
+    left: 100px;
+    border-radius: 40px;
+}
+
+#login {
+    color: white;
+    position: absolute;
+    left: 145px;
+    top: 10px;
+    font-size: 40px;
+    font-weight: 700;}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+
+#aemail{ background-color: white;
+    outline: none;
+    border: 10px;
+    padding-left: 30px;
+    padding-right: 60px;
+    width: 370px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 75px;}
+
+#formulario-login {
+	display: none;
+}
+
+#formulario-login:target {
+	display: block;
+}
